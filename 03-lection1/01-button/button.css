@@ -1,13 +1,13 @@
 /* Стилизация кнопки */
 .button{
-    width:182px;
-    padding:15px;
+    padding:15px 15px 14px;
     box-sizing: border-box;
     text-align: center;
     border-radius:8px;
     cursor: pointer;
     font-family: Roboto;
     font-size: 16px;
+    display: inline-block;
 }
 .button_primary{
     color:var(--white);
@@ -16,10 +16,6 @@
 .button_primary:hover{
     background-color: #2342C0;
 }
-.button_primary:disabled{
-    opacity:0.5;
-    cursor:default;
-}
 .button_secondary{
     color:var(--white);
     background-color:var(--secondary);
@@ -27,10 +23,7 @@
 .button_secondary:hover{
     background-color: #5028C6;
 }
-.button_secondary:disabled{
-    cursor:default;
-    opacity:0.5;
-}
+
 .button_alternate{
    color:var(--grey-4);
    background-color:var(--white);
@@ -40,10 +33,7 @@
     color:var(--grey-4);
     border-color:var(--black);
 }
-.button_alternate:disabled{
+.button_disabled{
     opacity:0.5;
-    cursor:default;
-}
-.wrapper__button{
-    margin:16px;
+    pointer-events: none;
 }
