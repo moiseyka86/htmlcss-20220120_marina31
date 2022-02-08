@@ -16,6 +16,7 @@
   .accordion__summary {
     color:var(--black);
     list-style: none;
+    font-family: Inter;  
   }
 .accordion__content{
     color:var(--grey-4);
