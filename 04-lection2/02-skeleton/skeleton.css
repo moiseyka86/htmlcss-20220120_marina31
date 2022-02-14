@@ -1,8 +1,6 @@
 .skeleton{
     border:1px solid var(--grey-3);
     border-radius:8px;
-    max-width:579px;
-    max-height:192px;
     padding:24px;
     box-sizing: border-box;
 }
@@ -24,20 +22,19 @@
 .skeleton__line{
     background:var(--grey-2);
     height:20px;
-    padding: 0;
-    margin: 0;
 }
-.skeleton_width172{
-    max-width:127px;
+.skeleton__line_width98{
+    width: 98%;
     margin-top:8px;
     margin-left:16px
 }
-.skeleton_width257{
-    max-width: 257px;
+.skeleton__line_width50{
+    max-width:50%;
     margin-top:8px;
     margin-left:16px
 }
-.skeleton_width515{
-    max-width:515px;
+.skeleton__line_width30{
+    max-width:30%;
     margin-top:8px;
+    margin-left:16px
 }
