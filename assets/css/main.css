@@ -3,7 +3,8 @@
 @import "../../components/header/header.css";
 @import "../../components/footer/footer.css";
 @import "../../components/container/container.css";
-
+@import "../../components/cards/card.css";
+@import "../../components/preview/preview.css";
 :root {
     --white: #ffffff;
     --black: #212429;
